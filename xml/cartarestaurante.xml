@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!-- Entrantes -->
+<platos>
+  <entrantes nombre="Tartar de atún🦐" precio="9.00" descripcion="Deliciosa opción de entrante que combina trozos de atún crudo de alta calidad con aguacate, cebolla roja, aceite de oliva, jugo de limón y cilantro. " caracteristicas="" kcal="550">
+    <ingrediente nombre="Atún" />
+    <ingrediente nombre="Aceite de oliva" />
+    <ingrediente nombre="Cebolla" />
+    <ingrediente nombre="Cilantro" />
+    <ingrediente nombre="Tomate" />
+  </entrantes>
+<entrantes nombre="Croquetas de jamón🥩" precio="8.00" descripcion="Clásico de la cocina española, deliciosas croquetas caseras de jamón" caracteristicas="" kcal="800">
+    <ingrediente nombre="Jamón" />
+    <ingrediente nombre="Harina" />
+    <ingrediente nombre="Aceite de oliva" />
+    <ingrediente nombre="Huevo" />
+    <ingrediente nombre="Pan rayado" />
+  </entrantes>
+  <entrantes nombre="Ensalada caprese🌱" precio="7.95" descripcion="Ensalada fresca y ligera, que combina tomates frescos, mozzarella de búfala y hojas de albahaca. " caracteristicas="Vegano" kcal="300">
+    <ingrediente nombre="Ensalada" />
+    <ingrediente nombre="Tomates" />
+    <ingrediente nombre="Mozzarella" />
+    <ingrediente nombre="Albahaca" />
+    <ingrediente nombre="Aceite de oliva" />
+  </entrantes>
+<entrantes nombre="Hummus de garbanzos🌱" precio="5.50" descripcion="Una deliciosa mezcla de garbanzos, tahini, aceite de oliva y jugo de limón, servida con pan de pita caliente." caracteristica="Vegano" kcal="200">
+    <ingrediente nombre="Garbanzos" />
+    <ingrediente nombre="Tahini" />
+    <ingrediente nombre="Aceite de oliva" />
+    <ingrediente nombre="Jugo de limón" />
+    <ingrediente nombre="Ajo" />
+    <ingrediente nombre="Pan de pita" />
+  </entrantes>
+  <entrantes nombre="Calamares a la romana🦐" precio="8.50" descripcion="Calamares fritos con una masa crujiente de harina y especias" caracteristica="" kcal="420">
+    <ingrediente nombre="Calamares" />
+    <ingrediente nombre="Harina" />
+    <ingrediente nombre="Perejil" />
+    <ingrediente nombre="Ajo" />
+  </entrantes>
+  <entrantes nombre="Carpaccio de ternera🥩" precio="9.50" descripcion="Finas láminas de ternera cruda, servidas con rúcula, queso parmesano y aceite de oliva." caracteristica="" kcal="300">
+    <ingrediente nombre="Ternera" />
+    <ingrediente nombre="Rúcula" />
+    <ingrediente nombre="Queso parmesano" />
+    <ingrediente nombre="Aceite de oliva" />
+  </entrantes>
+<!-- Postres -->
+<postres nombre="Tarta de manzana y canela 🍏" precio="4.50" descripcion="Una deliciosa tarta de manzana con un toque de canela, servida con helado de vainilla" caracteristica="" kcal="800">
+    <ingrediente nombre="Manzanas frescas" />
+    <ingrediente nombre="Azúcar, canela" />
+    <ingrediente nombre="Mantequilla" />
+    <ingrediente nombre="Harina, huevo, leche" />
+    <ingrediente nombre="Helado de vainilla" />
+  </postres>
+    <postres nombre="Brownie de chocolate 🍫" precio="5.50" descripcion="Postre de chocolate, esponjoso por dentro y crujiente por fuera, servido con una bola de helado de chocolate" caracteristica="" kcal="1000">
+    <ingrediente nombre="Chocolate negro" />
+    <ingrediente nombre="Mantequilla" />
+    <ingrediente nombre="Azúcar" />
+    <ingrediente nombre="Harina, huevo, sal" />
+    <ingrediente nombre="Helado de chocolate" />
+  </postres>
+  <postres nombre="Tiramisú 🍰" precio="4.50" descripcion=" Postre italiano hecho con capas de bizcocho empapado en café y licor, y crema de queso mascarpone." caracteristica="" kcal="800">
+    <ingrediente nombre="Café" />
+    <ingrediente nombre="Licor de café" />
+    <ingrediente nombre="Bizcochos de soletilla" />
+    <ingrediente nombre="Queso mascarpone" />
+    <ingrediente nombre="Azúcar, huevos" />
+    <ingrediente nombre="Cacao en polvos" />
+  </postres>
+    <postres nombre="Coulant de chocolate 🍫" precio="5.50" descripcion="Postre de chocolate, esponjoso por dentro y crujiente por fuera, servido con una bola de helado de chocolate" caracteristica="" kcal="1000">
+    <ingrediente nombre="Chocolate negro" />
+    <ingrediente nombre="Mantequilla" />
+    <ingrediente nombre="Azúcar" />
+    <ingrediente nombre="Harina, huevo, sal" />
+    <ingrediente nombre="Helado de chocolate" />
+  </postres>
+<!-- Bebidas -->
+  <bebidas nombre="Fanta de limón" precio="2.00" descripcion="Fanta de limón" caracteristica="" kcal="300">
+  </bebidas>
+    <bebidas nombre="Fanta de naranja" precio="2.00" descripcion="Fanta de naranja" caracteristica="" kcal="300">
+  </bebidas>
+    <bebidas nombre="Coca Cola" precio="2.00" descripcion="Coca cola" caracteristica="" kcal="400">
+  </bebidas>
+    <bebidas nombre="Coca cola zero" precio="2.00" descripcion="Coca cola zero" caracteristica="" kcal="10">
+  </bebidas>
+  <bebidas nombre="Agua" precio="2.00" descripcion="Agua mineral" caracteristica="" kcal="1">
+  </bebidas>
+<!-- Segundos -->
+  <segundos nombre="Hamburguesa ETE🥩" precio="7.50" descripcion="Doble burguer, lechuga, tomate, queso cheddar y cebolla crujiente" caracteristica="" kcal="487 kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Doble burguer" />
+    <ingrediente nombre="Lechuga" />
+    <ingrediente nombre="Tomate" />
+    <ingrediente nombre="Queso cheddar" />
+    <ingrediente nombre="Cebolla" />
+  </segundos>
+  <segundos nombre="Hamburguesa Luna🥩" precio="8.75" descripcion="Lechuga, tomate, cebolla caramelizada, salsa miel y mostaza y burger de pollo rebozada" caracteristica="" kcal="545 kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Lechuga" />
+    <ingrediente nombre="Tomate " />
+    <ingrediente nombre="Cebolla caramelizada" />
+    <ingrediente nombre="Salsa miel y mostaza" />
+    <ingrediente nombre="Burguer de pollo rebozado" />
+  </segundos>
+  <segundos nombre="Bocadillo Cruz🥩" precio="5.50" descripcion="Bocadillo de ternera con salteado de pimiento, cebolla y mozzarella" caracteristica="" kcal="337 kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Cebolla dulce" />
+    <ingrediente nombre="Pimiento rojo en tiras" />
+    <ingrediente nombre="2 filetes de ternera pequeños" />
+    <ingrediente nombre="Tomate en rama en rodajas" />
+    <ingrediente nombre="Rodajas de mozzarela fresca" />
+    <ingrediente nombre="Óregano" />
+    <ingrediente nombre="Tomillo" />
+    <ingrediente nombre="Aceite de oliva virgen extra" />
+  </segundos>
+  <segundos nombre="Bocadillo al chile(2 personas)🥩" precio="5.50" descripcion="Bocadillo de tinga de pollo al chile chipotle" caracteristica="" kcal="330 kcal">
+    <ingrediente nombre="4 panecillos tiernos🥖" />
+    <ingrediente nombre="250 g de cebolla blanca en juliana" />
+    <ingrediente nombre="Tomate maduro en trozos" />
+    <ingrediente nombre="1 pechuga de pollo" />
+    <ingrediente nombre="1 chile chipotle en adobo" />
+    <ingrediente nombre="2 g de comino molido" />
+    <ingrediente nombre="Aceite de oliva virgen extra" />
+  </segundos>
+  <segundos nombre="Bocadillo de gambas🦐" precio="6.50" descripcion="Bocadillo de gambas con wakame y sriracha" caracteristica="" kcal="376">
+    <ingrediente nombre="Panecillo tipo viena🥖" />
+    <ingrediente nombre="6 colas de gambas o langostinos" />
+    <ingrediente nombre="1 cucharada de salsa sriracha" />
+    <ingrediente nombre="1 cucharada de ensalada de algas wakame" />
+    <ingrediente nombre="cilantro o perejil fresco" />
+    <ingrediente nombre="Aceite de oliva virgen extra" />
+  </segundos>
+  </platos>

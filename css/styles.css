@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&family=Patrick+Hand&family=Raleway&family=Sofia+Sans:wght@300&display=swap');
+body{
+  padding: 2px;
+  background-image: url('/img/fondo.jpg');
+}
+*{
+  box-sizing: border-box;
+  border-radius: 1px;
+  border: 1px solid white;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Sofia Sans', sans-serif;
+}
+h1{
+  color:white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2.menu-restaurante{
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+p.menu-restaurante{
+  font-size: 20px;
+  color:white;
+  text-align: justify;
+}
+
+.column-3{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.menu-restaurante{
+  text-align: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+  font-size: 30px;
+  }
+  
+  h2.menu-restaurante {
+  font-size: 24px;
+  }
+  
+  p.menu-restaurante {
+  font-size: 16px;
+  }
+  
+  .column-3 {
+  grid-template-columns: repeat(2,1fr);
+  }
+  
+  .menu-restaurante {
+  min-height: 150px;
+  }
+  }
