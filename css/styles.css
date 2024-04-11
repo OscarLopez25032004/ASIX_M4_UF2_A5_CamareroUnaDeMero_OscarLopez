@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&family=Patrick+Hand&family=Raleway&family=Sofia+Sans:wght@300&display=swap');
 body{
   padding: 2px;
-  background-image: url('/img/fondo.jpg');
+  background-image: url('./../img/fondochess.jpg');
+  background-size: 50%;
+  background-position: center;
+  border-radius: 3px;
 }
+
 *{
   box-sizing: border-box;
-  border-radius: 1px;
-  border: 1px solid white;
-  font-family: 'Noto Serif', serif;
-  font-family: 'Patrick Hand', cursive;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Sofia Sans', sans-serif;
+  border-radius: 3px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-family: "Playfair Display", serif;
 }
+
 h1{
-  color:white;
   text-align: center;
   font-size: 40px;
 }
 
 h2.menu-restaurante{
-  color: white;
   text-align: center;
   font-size: 32px;
 }
 
 p.menu-restaurante{
   font-size: 20px;
-  color:white;
   text-align: justify;
 }
 
 .column-3{
-  color: white;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   column-gap: 1rem;
@@ -45,6 +45,15 @@ p.menu-restaurante{
   display: flex;
   flex-flow: column;
   min-height: 200px;
+}
+
+.imglogo {
+  width: 50%;
+  height: 50%;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 480px) {

@@ -1,28 +1,30 @@
 <?xml version="1.0"?>
 <!-- Entrantes -->
 <platos>
-  <entrantes nombre="Tartar de atún🦐" precio="9.00" descripcion="Deliciosa opción de entrante que combina trozos de atún crudo de alta calidad con aguacate, cebolla roja, aceite de oliva, jugo de limón y cilantro. " caracteristicas="" kcal="550">
-    <ingrediente nombre="Atún" />
-    <ingrediente nombre="Aceite de oliva" />
-    <ingrediente nombre="Cebolla" />
-    <ingrediente nombre="Cilantro" />
+  <entrantes nombre="Inglesa - English Breakfast Roll" precio="11.99€" descripcion=" Un rollo caliente y esponjoso relleno de salchichas, tocino, huevo revuelto y champiñones salteados, servido con una guarnición de frijoles horneados y tomate asado." kcal="550 kcal/porción">
+    <ingrediente nombre="Salchichas" />
+    <ingrediente nombre="Tocino" />
+    <ingrediente nombre="Huevo" />
+    <ingrediente nombre="Champiñones" />
+    <ingrediente nombre="Frijoles horneados" />
     <ingrediente nombre="Tomate" />
   </entrantes>
-<entrantes nombre="Croquetas de jamón🥩" precio="8.00" descripcion="Clásico de la cocina española, deliciosas croquetas caseras de jamón" caracteristicas="" kcal="800">
-    <ingrediente nombre="Jamón" />
-    <ingrediente nombre="Harina" />
-    <ingrediente nombre="Aceite de oliva" />
-    <ingrediente nombre="Huevo" />
+<entrantes nombre="Defensa Siciliana - Sicilian Bruschetta" precio="10.99€" descripcion="Rebanadas de pan tostado cubiertas con tomates picados, albahaca fresca, queso mozzarella derretido y aceite de oliva, acompañadas de huevo pochado." kcal="400 kcal/porción">
+    <ingrediente nombre="Pan tostado" />
+    <ingrediente nombre="Tomate" />
+    <ingrediente nombre="Albahaca" />
+    <ingrediente nombre="Queso mozzarella" />
     <ingrediente nombre="Pan rayado" />
   </entrantes>
-  <entrantes nombre="Ensalada caprese🌱" precio="7.95" descripcion="Ensalada fresca y ligera, que combina tomates frescos, mozzarella de búfala y hojas de albahaca. " caracteristicas="Vegano" kcal="300">
-    <ingrediente nombre="Ensalada" />
-    <ingrediente nombre="Tomates" />
-    <ingrediente nombre="Mozzarella" />
-    <ingrediente nombre="Albahaca" />
-    <ingrediente nombre="Aceite de oliva" />
+  <entrantes nombre=" Española - Spanish Omelette" precio="9.99€" descripcion="Una omelette esponjosa rellena de patatas, cebolla caramelizada y pimientos, servida con pan tostado y salsa de tomate." kcal="380 kcal/porción">
+    <ingrediente nombre="Patatas" />
+    <ingrediente nombre="Cebolla" />
+    <ingrediente nombre="Pimientos" />
+    <ingrediente nombre="Huevos" />
+    <ingrediente nombre="Pan tostado" />
+    <ingrediente nombre="Salsa de tomate" />
   </entrantes>
-<entrantes nombre="Hummus de garbanzos🌱" precio="5.50" descripcion="Una deliciosa mezcla de garbanzos, tahini, aceite de oliva y jugo de limón, servida con pan de pita caliente." caracteristica="Vegano" kcal="200">
+<entrantes nombre="Ataque Italiano - Italian Breakfast Panini" precio="12.99€" descripcion="Un panini caliente relleno de jamón, queso provolone, espinacas frescas y tomates secados al sol, servido con patatas fritas y una ensalada de rúcula." kcal="520 kcal/porción">
     <ingrediente nombre="Garbanzos" />
     <ingrediente nombre="Tahini" />
     <ingrediente nombre="Aceite de oliva" />
@@ -30,102 +32,123 @@
     <ingrediente nombre="Ajo" />
     <ingrediente nombre="Pan de pita" />
   </entrantes>
-  <entrantes nombre="Calamares a la romana🦐" precio="8.50" descripcion="Calamares fritos con una masa crujiente de harina y especias" caracteristica="" kcal="420">
-    <ingrediente nombre="Calamares" />
-    <ingrediente nombre="Harina" />
-    <ingrediente nombre="Perejil" />
-    <ingrediente nombre="Ajo" />
+  <entrantes nombre="Defensa Caro-Kann - Caro-Kann Croissant" precio="13.99€" descripcion="Un croissant recién horneado relleno de salmón ahumado, queso crema, pepino en rodajas y eneldo fresco, servido con una ensalada de frutas frescas." kcal="450 kcal/porción">
+    <ingrediente nombre="Croissant" />
+    <ingrediente nombre="Salmón ahumado" />
+    <ingrediente nombre="Queso crema" />
+    <ingrediente nombre="Pepino" />
+    <ingrediente nombre="Eneldo" />
+    <ingrediente nombre="Frutas frescas" />
   </entrantes>
-  <entrantes nombre="Carpaccio de ternera🥩" precio="9.50" descripcion="Finas láminas de ternera cruda, servidas con rúcula, queso parmesano y aceite de oliva." caracteristica="" kcal="300">
-    <ingrediente nombre="Ternera" />
-    <ingrediente nombre="Rúcula" />
+  <entrantes nombre="Italiana - Italian Breakfast Frittata" precio="10.99€" descripcion="Una frittata al estilo italiano con tomates cherry, albahaca fresca y queso parmesano, acompañada de pan tostado y mermelada de higos." kcal="350 kcal/porción">
+    <ingrediente nombre="Huevos" />
+    <ingrediente nombre="Tomates cherry" />
+    <ingrediente nombre="Albahaca" />
     <ingrediente nombre="Queso parmesano" />
-    <ingrediente nombre="Aceite de oliva" />
+    <ingrediente nombre="Pan tostado" />
+    <ingrediente nombre="Mermelada de higos" />
   </entrantes>
-<!-- Postres -->
-<postres nombre="Tarta de manzana y canela 🍏" precio="4.50" descripcion="Una deliciosa tarta de manzana con un toque de canela, servida con helado de vainilla" caracteristica="" kcal="800">
-    <ingrediente nombre="Manzanas frescas" />
-    <ingrediente nombre="Azúcar, canela" />
-    <ingrediente nombre="Mantequilla" />
-    <ingrediente nombre="Harina, huevo, leche" />
-    <ingrediente nombre="Helado de vainilla" />
-  </postres>
-    <postres nombre="Brownie de chocolate 🍫" precio="5.50" descripcion="Postre de chocolate, esponjoso por dentro y crujiente por fuera, servido con una bola de helado de chocolate" caracteristica="" kcal="1000">
+  <entrantes nombre="Francesa - French Breakfast Croissant" precio="12.99€" descripcion="Un croissant de mantequilla recién horneado relleno de jamón, queso brie derretido y mermelada de frambuesa, servido con una ensalada de hojas verdes." kcal="480 kcal/porción">
+    <ingrediente nombre="Croissant de mantequilla" />
+    <ingrediente nombre="Jamón" />
+    <ingrediente nombre="Queso brie" />
+    <ingrediente nombre="Mermelada de frambuesa" />
+    <ingrediente nombre="Ensalada" />
+  </entrantes>
+<!-- Segundos -->
+  <segundos nombre="Hamburguesa Gambito de Dama" precio="13.99€" descripcion="Una jugosa hamburguesa de ternera con queso cheddar derretido, tocino crujiente, cebolla caramelizada y una salsa de mostaza y miel, servida en un pan de sésamo tostado." kcal="650 kcal">
+    <ingrediente nombre="Carne de ternera" />
+    <ingrediente nombre="Queso cheddar" />
+    <ingrediente nombre="Tocino" />
+    <ingrediente nombre="Cebolla caramelizada" />
+    <ingrediente nombre="Mostaza" />
+    <ingrediente nombre="Miel" />
+    <ingrediente nombre="Pan de sésamo" />
+  </segundos>
+  <segundos nombre="Hamburguesa Torre Española" precio="12.99€" descripcion="Una hamburguesa de pollo a la parrilla con pimientos asados, cebolla morada, guacamole fresco y una salsa de chipotle, servida en un pan de maíz tostado." kcal="580 kcal">
+    <ingrediente nombre="Pechuga de pollo" />
+    <ingrediente nombre="Pimientos" />
+    <ingrediente nombre="Cebolla morada" />
+    <ingrediente nombre="Guacamole" />
+    <ingrediente nombre="Salsa de chipotle" />
+    <ingrediente nombre="Pan de maíz" />
+  </segundos>
+  <segundos nombre="Hamburguesa Italiana" precio="11.99€" descripcion="Una hamburguesa vegetariana con una hamburguesa de garbanzos y espinacas, mozzarella fresca, tomates secados al sol y pesto de albahaca, servida en un pan ciabatta tostado." kcal="500 kcal">
+    <ingrediente nombre="Hamburguesa de garbanzos" />
+    <ingrediente nombre="Espinacas" />
+    <ingrediente nombre="Mozzarella" />
+    <ingrediente nombre="Tomates secados al sol" />
+    <ingrediente nombre="Pesto de albahaca" />
+    <ingrediente nombre="Pan ciabatta" />
+  </segundos>
+  <segundos nombre="Hamburguesa Ataque Siciliano" precio="12.99€" descripcion="Una hamburguesa de carne de res con salsa marinara, queso provolone derretido, aceitunas negras picadas y albahaca fresca, servida en un pan de ajo tostado." kcal="620 kcal">
+    <ingrediente nombre="Carne de res" />
+    <ingrediente nombre="Salsa marinara" />
+    <ingrediente nombre="Queso provolones" />
+    <ingrediente nombre="Aceitunas negras" />
+    <ingrediente nombre="Albahaca fresca" />
+    <ingrediente nombre="Pan de ajo" />
+  </segundos>
+  <segundos nombre="Hamburguesa Caro-Kann" precio="12.99€" descripcion="Una hamburguesa de pavo a la parrilla con aguacate, queso pepper jack derretido, jalapeños en rodajas y salsa de cilantro, servida en un pan de trigo integral tostado." kcal="540 Kcal">
+    <ingrediente nombre="Pavo" />
+    <ingrediente nombre="Aguacate" />
+    <ingrediente nombre="Queso pepper jack" />
+    <ingrediente nombre="Jalapeños" />
+    <ingrediente nombre="Salsa de cilantroo" />
+    <ingrediente nombre="Pan de trigo integral" />
+  </segundos>
+  <segundos nombre="Hamburguesa Inglesa" precio="13.99€" descripcion="Una hamburguesa de ternera con cebolla caramelizada, queso azul desmenuzado, huevo frito y salsa de Worcestershire, servida en un pan de cebolla tostado." kcal="580 Kcal">
+    <ingrediente nombre="Carne de ternera" />
+    <ingrediente nombre="Cebolla caramelizada" />
+    <ingrediente nombre="Queso azul" />
+    <ingrediente nombre="Huevo frito" />
+    <ingrediente nombre="Salsa Worcestershire" />
+    <ingrediente nombre="San de cebolla" />
+  </segundos>
+  <segundos nombre="Hamburguesa Enroque" precio="14.99€" descripcion="Una hamburguesa doble con carne de res y tocino crujiente, acompañada de queso cheddar derretido, cebolla caramelizada y una salsa especial de barbacoa, servida en un pan brioche tostado." kcal="720 Kcal">
+    <ingrediente nombre="Doble carne de res" />
+    <ingrediente nombre="Tocino" />
+    <ingrediente nombre="Queso cheddar" />
+    <ingrediente nombre="Cebolla caramelizada" />
+    <ingrediente nombre="Salsa de barbacoa" />
+    <ingrediente nombre="Pan brioche" />
+  </segundos>
+  <!-- Postres -->
+<postres nombre="Postre Jaque Mate de Chocolate" precio="8.99€" descripcion="Un pastel de chocolate decadente con ganache de chocolate negro, adornado con frambuesas frescas y hojas de menta." kcal="450 kcal">
     <ingrediente nombre="Chocolate negro" />
-    <ingrediente nombre="Mantequilla" />
-    <ingrediente nombre="Azúcar" />
-    <ingrediente nombre="Harina, huevo, sal" />
-    <ingrediente nombre="Helado de chocolate" />
+    <ingrediente nombre="frambuesas" />
+    <ingrediente nombre="Menta" />
   </postres>
-  <postres nombre="Tiramisú 🍰" precio="4.50" descripcion=" Postre italiano hecho con capas de bizcocho empapado en café y licor, y crema de queso mascarpone." caracteristica="" kcal="800">
-    <ingrediente nombre="Café" />
-    <ingrediente nombre="Licor de café" />
-    <ingrediente nombre="Bizcochos de soletilla" />
-    <ingrediente nombre="Queso mascarpone" />
-    <ingrediente nombre="Azúcar, huevos" />
-    <ingrediente nombre="Cacao en polvos" />
+    <postres nombre="Tarta de Rey y Reina de Frutas" precio="10.99€" descripcion="Una tarta de hojaldre con crema pastelera y una variedad de frutas frescas como fresas, kiwi, uvas y melocotones, cubierta con una capa de gelatina brillante." kcal="380 kcal">
+    <ingrediente nombre="Hojaldre" />
+    <ingrediente nombre="Crema pastelera" />
+    <ingrediente nombre="Fresas" />
+    <ingrediente nombre="Kiwi, uvas, melocotones" />
+    <ingrediente nombre="Gelatina" />
   </postres>
-    <postres nombre="Coulant de chocolate 🍫" precio="5.50" descripcion="Postre de chocolate, esponjoso por dentro y crujiente por fuera, servido con una bola de helado de chocolate" caracteristica="" kcal="1000">
-    <ingrediente nombre="Chocolate negro" />
-    <ingrediente nombre="Mantequilla" />
+  <postres nombre="Pastel de Alfil de Limón" precio="7.99€" descripcion="Un pastel de limón esponjoso con glaseado de limón y ralladura de limón, adornado con rodajas de limón confitadas." kcal="320 kcal/porción">
+    <ingrediente nombre="Limón" />
     <ingrediente nombre="Azúcar" />
-    <ingrediente nombre="Harina, huevo, sal" />
-    <ingrediente nombre="Helado de chocolate" />
+    <ingrediente nombre="Harina" />
+    <ingrediente nombre="Huevos" />
+  </postres>
+    <postres nombre="Tarta de Enroque de Caramelo y Nueces" precio="9.99€" descripcion="Una tarta de caramelo y nueces con una base crujiente de galleta, relleno de caramelo suave y nueces tostadas, cubierto con crema batida y más nueces." kcal="420 kcal/porción">
+    <ingrediente nombre="Caramelo" />
+    <ingrediente nombre="Nueces" />
+    <ingrediente nombre="Galletas" />
+    <ingrediente nombre="Crema batida" />
   </postres>
 <!-- Bebidas -->
-  <bebidas nombre="Fanta de limón" precio="2.00" descripcion="Fanta de limón" caracteristica="" kcal="300">
+  <bebidas nombre="Peón" precio="1.50€" descripcion="Agua" kcal="1 kcal">
   </bebidas>
-    <bebidas nombre="Fanta de naranja" precio="2.00" descripcion="Fanta de naranja" caracteristica="" kcal="300">
+    <bebidas nombre="Alfil" precio="2.00€" descripcion="Fanta de naranja" kcal="300 kcal">
   </bebidas>
-    <bebidas nombre="Coca Cola" precio="2.00" descripcion="Coca cola" caracteristica="" kcal="400">
+    <bebidas nombre="Caballo" precio="2.00€" descripcion="Coca cola" kcal="400 kcal">
   </bebidas>
-    <bebidas nombre="Coca cola zero" precio="2.00" descripcion="Coca cola zero" caracteristica="" kcal="10">
+    <bebidas nombre="Torre" precio="1.85€" descripcion="Coca cola zero" kcal="10 kcal">
   </bebidas>
-  <bebidas nombre="Agua" precio="2.00" descripcion="Agua mineral" caracteristica="" kcal="1">
+    <bebidas nombre="Reina" precio="2.00€" descripcion="Fanta de Limón" kcal="300 kcal">s
   </bebidas>
-<!-- Segundos -->
-  <segundos nombre="Hamburguesa ETE🥩" precio="7.50" descripcion="Doble burguer, lechuga, tomate, queso cheddar y cebolla crujiente" caracteristica="" kcal="487 kcal">
-    <ingrediente nombre="Pan🥖" />
-    <ingrediente nombre="Doble burguer" />
-    <ingrediente nombre="Lechuga" />
-    <ingrediente nombre="Tomate" />
-    <ingrediente nombre="Queso cheddar" />
-    <ingrediente nombre="Cebolla" />
-  </segundos>
-  <segundos nombre="Hamburguesa Luna🥩" precio="8.75" descripcion="Lechuga, tomate, cebolla caramelizada, salsa miel y mostaza y burger de pollo rebozada" caracteristica="" kcal="545 kcal">
-    <ingrediente nombre="Pan🥖" />
-    <ingrediente nombre="Lechuga" />
-    <ingrediente nombre="Tomate " />
-    <ingrediente nombre="Cebolla caramelizada" />
-    <ingrediente nombre="Salsa miel y mostaza" />
-    <ingrediente nombre="Burguer de pollo rebozado" />
-  </segundos>
-  <segundos nombre="Bocadillo Cruz🥩" precio="5.50" descripcion="Bocadillo de ternera con salteado de pimiento, cebolla y mozzarella" caracteristica="" kcal="337 kcal">
-    <ingrediente nombre="Pan🥖" />
-    <ingrediente nombre="Cebolla dulce" />
-    <ingrediente nombre="Pimiento rojo en tiras" />
-    <ingrediente nombre="2 filetes de ternera pequeños" />
-    <ingrediente nombre="Tomate en rama en rodajas" />
-    <ingrediente nombre="Rodajas de mozzarela fresca" />
-    <ingrediente nombre="Óregano" />
-    <ingrediente nombre="Tomillo" />
-    <ingrediente nombre="Aceite de oliva virgen extra" />
-  </segundos>
-  <segundos nombre="Bocadillo al chile(2 personas)🥩" precio="5.50" descripcion="Bocadillo de tinga de pollo al chile chipotle" caracteristica="" kcal="330 kcal">
-    <ingrediente nombre="4 panecillos tiernos🥖" />
-    <ingrediente nombre="250 g de cebolla blanca en juliana" />
-    <ingrediente nombre="Tomate maduro en trozos" />
-    <ingrediente nombre="1 pechuga de pollo" />
-    <ingrediente nombre="1 chile chipotle en adobo" />
-    <ingrediente nombre="2 g de comino molido" />
-    <ingrediente nombre="Aceite de oliva virgen extra" />
-  </segundos>
-  <segundos nombre="Bocadillo de gambas🦐" precio="6.50" descripcion="Bocadillo de gambas con wakame y sriracha" caracteristica="" kcal="376">
-    <ingrediente nombre="Panecillo tipo viena🥖" />
-    <ingrediente nombre="6 colas de gambas o langostinos" />
-    <ingrediente nombre="1 cucharada de salsa sriracha" />
-    <ingrediente nombre="1 cucharada de ensalada de algas wakame" />
-    <ingrediente nombre="cilantro o perejil fresco" />
-    <ingrediente nombre="Aceite de oliva virgen extra" />
-  </segundos>
-  </platos>
+    <bebidas nombre="Rey" precio="4.99 €" descripcion="Vino Tinto" kcal="150 kcal">
+  </bebidas>
+</platos>
