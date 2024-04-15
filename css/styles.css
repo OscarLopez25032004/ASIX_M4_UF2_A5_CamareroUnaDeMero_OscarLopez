@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&family=Patrick+Hand&family=Raleway&family=Sofia+Sans:wght@300&display=swap');
+html {
+  font-size: 20px;
+}
 body{
   padding: 2px;
   background-image: url('./../img/fondochess.jpg');
@@ -9,26 +11,14 @@ body{
 
 *{
   box-sizing: border-box;
-  border-radius: 3px;
-  border: 1px solid rgb(0, 0, 0);
   padding: 10px;
   color: rgb(0, 0, 0);
   font-family: "Playfair Display", serif;
 }
 
-h1{
-  text-align: center;
-  font-size: 40px;
-}
-
 h2.menu-restaurante{
   text-align: center;
-  font-size: 32px;
-}
-
-p.menu-restaurante{
-  font-size: 20px;
-  text-align: justify;
+  font-size: 1.7rem;
 }
 
 .column-3{
@@ -45,6 +35,9 @@ p.menu-restaurante{
   display: flex;
   flex-flow: column;
   min-height: 200px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .imglogo {
@@ -55,25 +48,21 @@ p.menu-restaurante{
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 15px;
+  }
 
-@media only screen and (max-width: 480px) {
-  h1 {
-  font-size: 30px;
+  h2 {
+    font-size: 3.5rem;
   }
-  
-  h2.menu-restaurante {
-  font-size: 24px;
-  }
-  
-  p.menu-restaurante {
-  font-size: 16px;
-  }
-  
+
   .column-3 {
-  grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   
-  .menu-restaurante {
-  min-height: 150px;
-  }
-  }
+.imglogo {
+  width: 70%;
+  height: 70%;
+}
+}

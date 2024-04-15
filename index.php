@@ -18,12 +18,15 @@
     <title>CHECKMATE RESTAURANT</title>
     <!-- Enlaces a Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- Enlaces de FontAwesome -->
+    <script src="https://kit.fontawesome.com/460adc8f7b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <img src="./img/logo.png" alt="Logo" class="imglogo">
-    <div class="column-3 columns">
+    <div class="column-3">
         <div class="menu-restaurante">
             <h2>Aperturas</h2>
+            
             <?php
             /* Primer XML */
             if (file_exists('./xml/cartarestaurante.xml')) {
@@ -31,7 +34,7 @@
                 foreach ($platos->entrantes as $entrantes) {
                     echo "<strong>" . $entrantes['nombre'] . "</strong><br>";
                     echo "  " . $entrantes['descripcion'] . "<br>";
-                    echo "Características: ♟️♟️" . $entrantes['caract'] . "<br>";
+                    echo "Características: <i class='fa-solid fa-wheat-awn-circle-exclamation'></i><i class='fa-solid fa-fire'></i>" . "<br>";
                     echo "Calorías: " . $entrantes['kcal'] . "<br>";
                     echo "Precio: €" . $entrantes['precio'] . "<br>";
                     echo "Ingredientes:<br>";
@@ -46,7 +49,7 @@
             }
             ?>
         </div>
-            <div class="menu-restaurante">
+        <div class="menu-restaurante">
             <h2>Jugadas</h2>
             <?php
             /* Tercer XML */
@@ -55,6 +58,7 @@
             foreach ($platos->segundos as $segundos) {
                 echo "<strong>" . $segundos['nombre'] . "</strong><br>";
                 echo "" . $segundos['descripcion'] . "<br>";
+                echo "Características: <i class='fa-solid fa-wheat-awn-circle-exclamation'></i><i class='fa-solid fa-fire'></i><i class='fa-solid fa-fire'></i>" . "<br>";
                 echo "Calorías: " . $segundos['kcal'] . "<br>";
                 echo "Precio: €" . $segundos['precio'] . "<br>";
                 echo "Ingredientes:<br>";
@@ -78,6 +82,7 @@
             foreach ($platos->postres as $postres) {
                 echo "<strong>" . $postres['nombre'] . "</strong><br>";
                 echo "  " . $postres['descripcion'] . "<br>";
+                echo "Características: <i class='fa-solid fa-wheat-awn-circle-exclamation'></i><i class='fa-solid fa-fire'></i>" . "<br>";
                 echo "Calorías: " . $postres['kcal'] . "<br>";
                 echo "Precio: €" . $postres['precio'] . "<br>";
                 echo "Ingredientes:<br>";
@@ -97,6 +102,8 @@
             $platos = simplexml_load_file('./xml/cartarestaurante.xml');
             foreach ($platos->bebidas as $bebidas) {
                 echo "<strong>" . $bebidas['nombre'] . "</strong><br>";
+                echo "  " . $bebidas['descripcion'] . "<br>";
+                echo "Características: <i class='fa-solid fa-martini-glass-citrus'></i>" . "<br>";
                 echo "Calorías: " . $bebidas['kcal'] . "<br>";
                 echo "Precio: €" . $bebidas['precio'] . "<br>";
                 echo "<br>";
